@@ -10,7 +10,7 @@ const PopularDishes = () => {
                     <a href='' className='text-[#025cca] text-sm font-semibold'>View all</a>
                 </div>
 
-                <div className='overflow-y-scroll h-[680px] scrollbar-hide'>
+                <div className='overflow-y-scroll h-[680px] pb-4 scrollbar-hide'>
                     {
                         popularDishes.map((dish) => {
                             return (
