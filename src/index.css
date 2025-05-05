@@ -8,3 +8,7 @@ body {
 .scrollbar-hide {
   scrollbar-width: none;
 }
+
+button {
+  cursor: pointer;
+}
