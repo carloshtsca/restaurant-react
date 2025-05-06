@@ -23,9 +23,9 @@ const Tables = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 px-10 py-5 overflow-y-scroll h-[700px] scrollbar-hide'>
                 {
-                    tables.map((table, i) => {
+                    tables.map((table) => {
                         return (
-                            <TableCard key={i} name={table.name} status={table.status} initials={table.initial} />
+                            <TableCard key={table.id} id={table.id} name={table.name} status={table.status} initials={table.initial} />
                         )
                     })
                 }
